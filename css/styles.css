@@ -34,11 +34,11 @@ ul {
 /* Components */
 
 .container {
-   max-width: 1158px;
+   width: 1158px;
+   margin-left: auto;
+   margin-right: auto;
    padding: 0 15px;
-   margin: 0 auto;
 }
-
 
 /* utils */
 .hidden-title {
@@ -316,7 +316,6 @@ letter-spacing: 0.02em;
 
    font-family: inherit;
    font-weight: 500;
-
    background-color: var(--accent-clr);
    border: 1px solid var(--accent-clr);
    border-radius: 4px;
@@ -331,25 +330,22 @@ letter-spacing: 0.02em;
 
 .work-list {
    display: flex;
-   gap: 24px;
+   gap: 48px;
    row-gap: 48px;
-   flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .work-wrap {
    padding-left: 16px;
    padding-top: 32px;
    padding-bottom: 32px;
-
    border: 1px solid var(--accent-clr);
    border-top: 1px solid transparent;
 }
 
 .work-item {
    flex-basis: calc((100% - 48px) / 3);
-   display: list-item;
 }
-
 .work-img {
    display: block;
 }

@@ -30,6 +30,7 @@
    p,
    ul {
       margin: 0;
+      padding: 0;
    }
    /* Components */
 
@@ -56,6 +57,10 @@
    }
 
    /* header */
+
+   .header {
+      border-bottom: 1px solid var(--accent-clr);
+   }
 
    .site-nav {
       display: flex;
@@ -98,11 +103,6 @@
       color: var(--dark-clr);
       text-decoration: none;   
       letter-spacing: 0.02em;
-   }
-
-   .nav-list {
-      display: flex;
-      gap: 40;
    }
 
 
@@ -184,7 +184,7 @@
    }
 
    .privilege-item {
-      flex-basis: calc((100% - 48px) / 4);
+      flex-basis: calc((100% - 72px) / 4);
    }
 
    .section-subtitle {
@@ -331,8 +331,8 @@
    .work-list {
       display: flex;
       gap: 48px 24px;
-   flex-wrap: wrap;
-   padding-left: 0px;
+    flex-wrap: wrap;
+    padding-left: 0px;
    }
 
    .work-wrap {
